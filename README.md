@@ -1,13 +1,13 @@
 # firebaseTemplate
 
-# Projeyi GitHub'dan klonlayın
+* Projeyi GitHub'dan klonlayın
 git clone https://github.com/ahmetsedr/firebaseChessGame.git
 
-# Projeye giriş yapın
+* Projeye giriş yapın
 cd firebaseChessGame
 
-# Gerekli paketleri yükleyin
+* Gerekli paketleri yükleyin
 npm install
 
-# Projeyi çalıştırın
+* Projeyi çalıştırın
 npm run dev
