@@ -1,0 +1,120 @@
+:root {
+    --dimension: 7vw;
+    --light-color: beige;
+    --dark-color: darkgray;
+    padding: 5vw;
+}
+
+#board {
+    user-select: none;
+}
+
+.row {
+    height: var(--dimension);
+    width: calc(10 * var(--dimension));
+    display: flex;
+}
+
+.white,
+.black {
+    height: var(--dimension);
+    width: var(--dimension);
+    display: flex;
+}
+
+.white {
+    background-color: var(--light-color);
+}
+
+.black {
+    background-color: var(--dark-color);
+}
+
+.tile img {
+    pointer-events: none;
+    height: 7vw;
+    width: 7vw;
+    z-index: 1;
+    position: absolute;
+}
+
+.has-piece {
+    cursor: pointer;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tile {
+    position: relative;
+}
+
+.notation {
+    z-index: 1;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.number {
+    top: 0.5vw;
+    right: 0.5vw;
+}
+
+.letter {
+    bottom: 0.5vw;
+    left: 0.5vw;
+}
+
+.light-sq-notation-color {
+    color: var(--light-color);
+}
+
+.dark-sq-notation-color {
+    color: var(--dark-color);
+}
+
+#controls-and-movelog {
+    overflow-x: hidden;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#board-controls {
+    display: flex;
+    height: 5vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+#board-controls label {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-right: 2vw;
+}
+
+#board-controls button {
+    padding: 1vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: #ff3b3f;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.check {
+    width: var(--dimension);
+    height: var(--dimension);
+    background-color: red;
+}
