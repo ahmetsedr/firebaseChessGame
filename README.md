@@ -1,16 +1,16 @@
 # firebase Chess Game
 
 * Projeyi GitHub'dan klonlayın
-git clone https://github.com/ahmetsedr/firebaseChessGame.git
+`git clone https://github.com/ahmetsedr/firebaseChessGame.git`
 
 * Projeye giriş yapın
-cd firebaseChessGame
+`cd firebaseChessGame`
 
 * Gerekli paketleri yükleyin
-npm install
+`npm install`
 
 * Projeyi çalıştırın
-npm run dev
+`npm run dev`
 
 ### Proje ile ilgili fotoğraaflar 
 
